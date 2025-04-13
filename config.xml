@@ -1,0 +1,12 @@
+Listen 192.168.88.128:54321				//负载均衡服务器程序的地址以及端口号
+
+<logical_host>
+  <name>192.168.88.128</name>
+  <port>12345</port>
+  <conns>100</conns>
+</logical_host>
+<logical_host>
+  <name>192.168.88.128</name>
+  <port>12346</port>
+  <conns>100</conns>
+</logical_host>
